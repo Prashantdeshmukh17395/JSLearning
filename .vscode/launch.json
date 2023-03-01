@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://.vscode\\launch.json",
+            "request": "launch",
+            "url": "http://.vscode\\launch.json"
+        }
+    ]
+}
