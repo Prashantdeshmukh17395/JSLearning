@@ -3,7 +3,8 @@ function factorialOfWordCount(str) {
     if (str==null || str==undefined ) {
        console.log(`Given String is ${str} is - Invalid`);
        
-    }else{
+    }
+    else{
        var words = str.split(" ");
        var totalWords = words.length;
        var factorial=1;
