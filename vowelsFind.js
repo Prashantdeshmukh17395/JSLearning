@@ -28,7 +28,6 @@ function lastWordCharsCount(str) {
      console.log(`Given string is "${str}" having a word length is = ${totalWords}`);     
     }
     return totalWords;
- 
 }
 lastWordCharsCount("JavaScript is the language Of Internet");
 lastWordCharsCount("I am Angular Developer");
