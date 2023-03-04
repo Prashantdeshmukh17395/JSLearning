@@ -89,5 +89,5 @@ function tcsEligiblity(gradScore,hscScore,sscScore,name){
     var tcsEligiblity = gradScore >=70 || hscScore >= 80 || sscScore>=90?"eligible":"Not eligible";
     return tcsEligiblity
 }
-var result = tcsEligiblity(80,86,79,"Hitesh");
+var result = tcsEligiblity(80,86,79,"Prashant");
 console.log(result);

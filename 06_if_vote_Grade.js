@@ -21,7 +21,7 @@ voteEligiblity(0)
 voteEligiblity("undefined")
 voteEligiblity("null")
 
-console.log(`~~~~~~~~~~~~~~~~~~ Question 1~~~~~~~~~~~~~~~~~~~`);
+console.log(`~~~~~~~~~~~~~~~~~~ Question 2~~~~~~~~~~~~~~~~~~~`);
 function gradeCalculation(marks){
     if (marks>=90 && marks<=100 && typeof marks==="number") {
         console.log(`Funtastic marks: "${marks}",Your grade is A+`);

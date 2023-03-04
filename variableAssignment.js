@@ -3,10 +3,12 @@ myFullName=("Prashant Deshmukh");//variable initilazation
 console.log("My Full Name:",myFullName);
 myFullName="Prashant Suresh Deshmukh";
 console.log("My Full Name:",myFullName);
+
 console.log("*******01***********");
 var myLove;
 myLove="I Love only JS";
 console.log("My Love:", myLove);
+
 console.log("*********02*********");
 
 var firstName="prashant";//variable declaration and initilization

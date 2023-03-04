@@ -9,7 +9,7 @@ function tcsEligiblity(gradScore,hscScore,sscScore,name){
         console.log(`Unfortunately "${name}" you are not eligible for TCS Interview`);
     }
 }
-tcsEligiblity(80,86,79,"Hitesh")
-tcsEligiblity(70,65,55,"Neha")
+tcsEligiblity(80,86,79,"Prashant")
+tcsEligiblity(70,65,55,"Hitesh")
 tcsEligiblity(60,79,88,"Sushama")
-tcsEligiblity(80,86,79,"omkar")
+tcsEligiblity(80,86,79,"Omkar")
