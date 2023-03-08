@@ -10,6 +10,6 @@ function tcsEligiblity(gradScore,hscScore,sscScore,name){
     }
 }
 tcsEligiblity(80,86,79,"Prashant")
-tcsEligiblity(70,65,55,"Hitesh")
-tcsEligiblity(60,79,88,"Sushama")
-tcsEligiblity(80,86,79,"Omkar")
+tcsEligiblity(70,65,55,"Swapnil")
+tcsEligiblity(60,79,88,"Mayuri")
+tcsEligiblity(80,86,79,"Trupti")
