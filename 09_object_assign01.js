@@ -47,7 +47,7 @@ let sbiBank = {
     ifsc: "SBI000481",
     interestRate: "7.5%"
 }
-    
+ 
  }
  showDetails(sbiBank);
 
