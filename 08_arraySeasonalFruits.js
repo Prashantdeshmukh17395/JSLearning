@@ -1,4 +1,4 @@
-var arraySeasonalFruits = ["Banana","Orange","Apple","Mango","Water Melon"];
+let arraySeasonalFruits = ["Banana","Orange","Apple","Mango","Water Melon"];
 console.log("**********(1)***********");
 console.log(" First Element in Given array: ");
 console.log("          Banana          ");
@@ -41,6 +41,7 @@ console.log("**********(8)***********");
 console.log("  Only select last 3 Element  ");            
 const arrayFromIndex= arraySeasonalFruits.slice(4);    
 console.log(arrayFromIndex);
+
 
 
 

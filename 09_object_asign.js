@@ -21,8 +21,7 @@ let professor = {
         `engineering: "CSC", ME: "Software Engineering", PHD: "Adv Computing", `;
         return str ;
         
-     },
-      
+     },   
      
 }
 console.log(professor);
