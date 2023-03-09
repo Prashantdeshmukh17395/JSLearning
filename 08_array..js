@@ -5,7 +5,7 @@ var arrayOfNumber = [0,2,4,5,6,7,8,0,4] ;
 console.log(arrayOfNumber);
 // console.table(arrayOfNumber);
 
-const totalArrayElements= arrayOfNumber.length         // find no. og length
+const totalArrayElements= arrayOfNumber.length         // find no. of length
 console.log(`Total no. of elements in this array: ${totalArrayElements}`)
 
 let is8Available = arrayOfNumber.includes(8);
@@ -15,7 +15,7 @@ let is9Available = arrayOfNumber.includes(9);
 console.log(`Is Available 9 : ${is9Available}`);
 
 const indexOf8 =arrayOfNumber.indexOf(8);
-console.log(`Index of 8 is Available  : ${indexOf8}`);   // find index of array
+console.log(`Index of 8 is Available  : ${indexOf8}`);   // find the number in index of array
 
 const indexOf9 =arrayOfNumber.indexOf(9);
 console.log(`Index of 9 is Available  : ${indexOf9}`);
@@ -98,3 +98,21 @@ console.log("***************To Insert Element with Replacement*************");
 var arrayOfNumber = [10,20,25,15,40,45] ;  // to insert a one element repacement
 arrayOfNumber.splice(2,1,50,60);                //   // (index number,1 no of repacement,what no.   u want to insert)            
 console.log(arrayOfNumber);
+
+
+
+console.log("***************Traversing**************");
+var arrayOfNumber = [10,20,25,30,15,24,13,50,45,55,60] ;
+for (let index = 0; index < arrayOfNumber.length; index++) {
+    const element = arrayOfNumber[index];
+    console.log(element);
+}
+var arrayOfNumber = [10,20,25,30,15,24,13,50,45,55,60] ;
+let sum=0;
+for (let index = 0; index < arrayOfNumber.length; index++) {
+    const element = arrayOfNumber[index]; 
+
+    sum = sum + arrayOfNumber[index];   
+}
+console.log(`Sum of Array Element is : ${sum}`);
+

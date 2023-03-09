@@ -19,3 +19,15 @@ for (let index = 10; index >=0; index++) {
     
 }
 //index++ ==> index=index+1
+
+
+const array = [];
+
+const arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = arrayOfNumbers[index];
+    if (element%2==0) {
+        array.push(element);  
+    } 
+}
+console.log(array);
