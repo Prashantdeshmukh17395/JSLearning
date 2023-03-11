@@ -4,19 +4,31 @@ let sbiBank = {
     location: "Badlapur",
     accountNo: "60131422 ",
     ifsc: "SBI000481",
-    interestRate: "7.5%"
+    interestRate: "7.5%",
+    
+    showDetails : function () {
+        console.log(`Name: ${this.bankName}, Location: ${this.location}, Account No.: ${this.accountNo}, IFSC: ${this.ifsc}, Intrest Rate : ${this.interestRate}`);
+        
+    }
 }
 console.log(sbiBank);
 
 
-
+let showDetails ;
 let axisBank = {
     bankName: "Axis Bank",
     location: "Kalyan",
     accountNo: "30131422 ",
     ifsc: "AXIS000432",
-    interestRate: "8.0%"
+    interestRate: "8.0%",
+    
+    showDetails : function () {
+        console.log(`Name: ${this.bankName}, Location: ${this.location}, Account No.: ${this.accountNo}, IFSC: ${this.ifsc}, Intrest Rate : ${this.interestRate}`);
+        
+    }
+    
 }
+
 console.log(axisBank);
 
 
@@ -25,67 +37,26 @@ let hdfcBank = {
     location: "Thane",
     accountNo: "60142245 ",
     ifsc: "HDFC000567",
-    interestRate: "7.8%"
+    interestRate: "7.8%",
+    
+    showDetails : function () {
+        console.log(`Name: ${this.bankName}, Location: ${this.location}, Account No.: ${this.accountNo}, IFSC: ${this.ifsc}, Intrest Rate : ${this.interestRate}`);
+        
+    }
 }
 console.log(hdfcBank);
 
 let yesBank = {
-    bankName: "HDFC Bank",
-    location: "Thane",
+    bankName: "YES  Bank",
+    location: "Airoli",
     accountNo: "60142245 ",
-    ifsc: "YEs000235",
-    interestRate: "8.75%"
-}
-console.log(yesBank);
+    ifsc: "YES000235",
+    interestRate: "8.75%",
 
-   function showDetails(str) {
+    showDetails : function () {
+        console.log(`Name: ${this.bankName}, Location: ${this.location}, Account No.: ${this.accountNo}, IFSC: ${this.ifsc}, Intrest Rate : ${this.interestRate}`);
         
-let sbiBank = {
-    bankName: "SBI Bank",
-    location: "Badlapur",
-    accountNo: "60131422 ",
-    ifsc: "SBI000481",
-    interestRate: "7.5%"
-}
- 
- }
- showDetails(sbiBank);
-
- function showDetails(str) {
-        
-    let axisBank = {
-        bankName: "Axis Bank",
-        location: "Kalyan",
-        accountNo: "30131422 ",
-        ifsc: "AXIS000432",
-        interestRate: "8.0%"
     }
-    }
-        
-     showDetails(axisBank);
+}
+ console.log(yesBank);
 
-     function showDetails(str) {
-        let hdfcBank = {
-            bankName: "HDFC Bank",
-            location: "Thane",
-            accountNo: "60142245 ",
-            ifsc: "HDFC000567",
-            interestRate: "7.8%"
-        }
-        
-        }
-         showDetails(hdfcBank);
-
-         showDetails(axisBank);
-
-     function showDetails(str) {
-        let yesBank = {
-            bankName: "HDFC Bank",
-            location: "Thane",
-            accountNo: "60142245 ",
-            ifsc: "YEs000235",
-            interestRate: "8.75%"
-        }
-        
-        }
-         showDetails(yesBank);
