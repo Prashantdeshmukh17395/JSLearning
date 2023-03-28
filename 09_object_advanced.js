@@ -39,11 +39,11 @@ const player = {
     isMarries: true
 }
 Object.freeze(player);
-player.totalVicket = 120; //Adding new property - Not allowed as object is freezed
+player.totalWicket = 120; //Adding new property - Not allowed as object is freezed
 delete player.totalCenturies;// deleting property - Not allowed as object is freezed
 player.fullName = "King Kohli"; // Updating existing property - Not allowed as object is freezed
 
-console.log(player);
+console.table(player);
 
 
 
@@ -53,7 +53,7 @@ const student = {
     firstName: "Elon",
     lastName: "Musk",
     age: 54
-} 
+}                                                     //Concating the two Objects by different methods
 const address = {
     country : "US",
     city : "Silicon Valley",
