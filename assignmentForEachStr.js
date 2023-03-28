@@ -24,7 +24,7 @@ array_employess.forEach(element => {
     if (element.emp_company=="TCS") {
         console.log(`Employee Name:${element.emp_name}  && Company Name : ${element.emp_company}`);
     } 
- })
+})
  
  console.log("*****************(2)Find Out Salary greater than =50000*********************");
 array_employess.forEach(element => {
