@@ -46,7 +46,7 @@ console.log(`Length Of Array is : ${arrayLength}`);
 let avgWiproSalary =  (sum / arrayLength)
 console.log(`Average Wipro Salary is : ${avgWiproSalary}`);
 
-console.log("******************Step(3)*****************")
+console.log("******************Step(3)**************")
 
 let newArrayInfy = array_employess.filter(element => element.emp_company== "Infy"
     ).map ( salaryes => salaryes.emp_salary);
