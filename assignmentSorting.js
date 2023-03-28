@@ -11,7 +11,7 @@ console.log("*****************(2)Apply only a Custom sort**********************"
 console.log(arrayRollNumbers);
 
 
-console.log("*****************(3)Sort the array in Ascending Order**********************");
+console.log("*****************(3)Sort the array in Ascending Order*********************");
 
 arrayRollNumbers.sort( (a, b) => { 
     return a>b ? 1 : -1;
